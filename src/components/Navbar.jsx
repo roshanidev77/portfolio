@@ -95,14 +95,17 @@ const Navbar = () => {
             {/* Language toggle */}
             <motion.button
               onClick={toggleLanguage}
-              className="hidden sm:flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold border border-primary-300 dark:border-primary-700 text-primary-700 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors"
+              className="flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-full text-[11px] sm:text-xs font-semibold border border-primary-300 dark:border-primary-700 text-primary-700 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               title="Toggle Language"
             >
               <span className={language === "en" ? "opacity-100" : "opacity-50"}>EN</span>
               <span className="text-slate-400">/</span>
-              <span className={language === "np" ? "opacity-100" : "opacity-50"}>नेपाली</span>
+              <span className={language === "np" ? "opacity-100" : "opacity-50"}>
+                <span className="sm:hidden">ने</span>
+                <span className="hidden sm:inline">नेपाली</span>
+              </span>
             </motion.button>
 
             {/* Theme toggle */}
