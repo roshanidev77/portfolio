@@ -173,6 +173,9 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.4 }}
           >
             <span className="bg-gradient-to-r from-primary-600 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
+              {profile.name}
+            </span>
+            <span className="block mt-2 text-3xl sm:text-4xl md:text-5xl">
               {profile.nameNp}
             </span>
           </motion.h1>
@@ -280,7 +283,7 @@ const Hero = () => {
             <div className="absolute inset-8 rounded-full bg-gradient-to-br from-primary-100 to-cyan-100 dark:from-primary-900/50 dark:to-cyan-900/50 border-4 border-white dark:border-navy-800 shadow-2xl overflow-hidden flex items-end justify-center">
               <img
                 src={roshaniPortrait}
-                alt="Roshani"
+                alt="Roshani Neupane, Government Health Professional in Nepal"
                 className="h-full w-full object-contain object-bottom drop-shadow-2xl"
               />
             </div>

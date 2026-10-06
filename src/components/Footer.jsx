@@ -36,7 +36,7 @@ const Footer = () => {
                 <MdOutlineHealthAndSafety className="text-white text-xl" />
               </div>
               <div>
-                <div className="font-heading text-xl text-white font-semibold">Roshani</div>
+                <div className="font-heading text-xl text-white font-semibold">Roshani Neupane</div>
                 <div className="text-xs text-primary-400 tracking-widest">HEALTH PROFESSIONAL</div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-600">
           <span>
-            © {year} Roshani. {t("footer.rights")}
+            © {year} Roshani Neupane. {t("footer.rights")}
           </span>
           <span className="flex items-center gap-1">
             {t("footer.madeWith")} <FiHeart className="text-red-500 mx-1" size={12} /> {t("footer.forNepal")}

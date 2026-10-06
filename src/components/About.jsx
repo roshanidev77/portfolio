@@ -108,7 +108,7 @@ const About = () => {
                     <span className="text-white text-2xl font-bold font-heading">R</span>
                   </div>
                   <div>
-                    <p className="font-bold text-navy-900 dark:text-white">Roshani</p>
+                    <p className="font-bold text-navy-900 dark:text-white">Roshani Neupane</p>
                     <p className="text-xs text-primary-600 dark:text-primary-400">Health Post In-Charge</p>
                     <div className="flex items-center gap-1 mt-1">
                       <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />

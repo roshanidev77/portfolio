@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block">
               <span className="font-heading text-lg font-bold text-navy-900 dark:text-white">
-                Roshani
+                Roshani Neupane
               </span>
               <span className="block text-[10px] text-primary-600 dark:text-primary-400 tracking-widest uppercase leading-none">
                 Health Professional

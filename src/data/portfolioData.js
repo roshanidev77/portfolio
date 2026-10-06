@@ -1,6 +1,6 @@
 export const profile = {
-  name: "Roshani",
-  nameNp: "रोशनी",
+  name: "Roshani Neupane",
+  nameNp: "रोशनी न्यौपाने",
   age: 22,
   nationality: "Nepali",
   hometown: "Madhyapur Thimi-9, Bhaktapur, Nepal",

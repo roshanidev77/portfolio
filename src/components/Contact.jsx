@@ -80,7 +80,7 @@ const Contact = () => {
                   <MdOutlineHealthAndSafety className="text-white text-2xl" />
                 </div>
                 <div>
-                  <p className="font-heading text-xl text-white font-bold">Roshani</p>
+                  <p className="font-heading text-xl text-white font-bold">Roshani Neupane</p>
                   <p className="text-primary-400 text-xs">Health Professional · Nepal</p>
                 </div>
               </div>

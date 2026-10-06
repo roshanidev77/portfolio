@@ -57,7 +57,7 @@ const Loader = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.5 }}
       >
-        <h1 className="font-heading text-3xl text-white mb-1">Roshani</h1>
+        <h1 className="font-heading text-3xl text-white mb-1">Roshani Neupane</h1>
         <p className="text-primary-400 text-sm tracking-widest uppercase">Health Professional</p>
       </motion.div>
 
