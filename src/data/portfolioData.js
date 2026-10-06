@@ -21,7 +21,7 @@ export const stats = {
   hospitalsWorked: 7,
   municipalitiesServed: 2,
   loksweaAge: 19,
-  patientsServed: "1000+",
+  patientsServed: "10000+",
   govMonths: 26,
 };
 
